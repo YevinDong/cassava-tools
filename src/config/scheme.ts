@@ -77,7 +77,71 @@ export const secondary_option: Record<Category, IDropdownPropsOptionsWithParams[
                 }
             ]
         },
-
+        {
+            label: "任务广场页面",
+            value: "cassava://tabbar/tasks"
+        },
+        {
+            label: "社区广场页面",
+            value: "cassava://tabbar/communities"
+        },
+        {
+            label: "社区详情页面",
+            value: "cassava://native/communityDetail",
+            params: [
+                { key: "id", require: true },
+                { key: "code" },
+            ]
+        },
+        {
+            label: "Credits页面",
+            value: "cassava://tabbar/credits"
+        },
+        {
+            label: "Referral页面",
+            value: "cassava://native/referral",
+            params: [
+                { key: "type", require: true, enum: ["invite", "referral"] },
+            ]
+        }, {
+            label: "步数计页面",
+            value: "cassava://native/pedometer"
+        }, {
+            label: "Earning页面（每日任务中心页面）",
+            value: "cassava://tabbar/earning"
+        }, {
+            label: "我的Avatar列表页面",
+            value: "cassava://native/myAvatarList"
+        },
+        {
+            label: "我的钱包管理页面",
+            value: "cassava://native/walletManage"
+        },
+        {
+            label: "挖矿列表页面",
+            value: "cassava://native/miningList"
+        },
+        {
+            label: "投资(追加)挖矿页面",
+            value: "cassava://native/investMining"
+        },
+        {
+            label: "挖矿详情页面",
+            value: "cassava://native/miningDetail",
+            params: [
+                { key: "pool_id", require: true },
+                { key: "round_id", require: true },
+            ]
+        }, {
+            label: "我的挖矿列表页面(进行中的)",
+            value: "cassava://native/myMining"
+        }, {
+            label: "我的挖矿历史记录列表页面",
+            value: "cassava://native/myMiningHistory"
+        }, {
+            label: "新手任务页面",
+            value: "cassava://native/newbieTask"
+        }
     ],
     [Category.web]: [
         {

@@ -14,4 +14,5 @@ export interface ISchemeParamsItem {
     key: string,
     require?: boolean,
     info?: string,
+    enum?: string[]
 }

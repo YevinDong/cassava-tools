@@ -67,3 +67,10 @@
     </div>
   </div>
 </main>
+
+<style>
+  .dropdown-content {
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+</style>
