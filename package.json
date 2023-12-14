@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.4",
+    "dayjs": "^1.11.10",
     "sirv-cli": "^2.0.0",
     "svelte-spa-router": "^4.0.0"
   }

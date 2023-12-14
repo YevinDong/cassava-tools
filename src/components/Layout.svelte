@@ -4,8 +4,8 @@
 
 <main>
   <div
-    in:fly={{ x: 1200, duration: 300, delay: 300 }}
-    out:fly={{ x: -1200, duration: 300 }}
+    in:fly={{ x: 1400, duration: 200, delay: 200 }}
+    out:fly={{ x: -1400, duration: 200 }}
   >
     <slot />
   </div>
